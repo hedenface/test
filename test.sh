@@ -1,4 +1,9 @@
 #!/bin/bash
 
-exit 0
+if [ ! -f iwritec ]; then
+  echo "no binary found"
+  exit 1
+fi
+
+valgrind ./iwritec
 
