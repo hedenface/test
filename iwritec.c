@@ -11,5 +11,6 @@ int main()
                 printf( "%c", mycast );
         }
         printf("\n\n");
+	return 0;
 }
 
